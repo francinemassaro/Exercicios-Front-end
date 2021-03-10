@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTATO TESTE</title>
+    <title>CONTATO</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
+
 </head>
 <body background="Assets/fundo1.png">
 
-    <table border="0" width="900" align="center">
-        <tr>
-                <td height="50" align="center">
-                <a href="Index.html">Home |</a>
-                <a href="contato.html">Contato</a>
-            </td>
-        </tr>
-    </table>
-    <h1>Entre em contato comigo</h1>
+    <ul id="menu">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="sobre.html">Sobre</a>
+        </li>
+        <li>
+            <a href="contato.html">Contato</a>
+        </li>
+    </ul>
+    <h1 class="center">Entre em contato comigo</h1>
 
+    <div class="container">
     <form>
+        <div>
         <!-- referenciar qual input ela fará parte. Tota label vem acompanhada de um input-->
         <label for="nome">Nome</label><br>
         <input type="text" id="nome">
@@ -31,11 +38,13 @@
 
         <button>Enviar</button>
     </form>
+    </div>
 
-
+<div>
     <h2>Endereço</h2>
     <p>São Francisco Xavier - SP</p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14700.209918229402!2d-45.97054522830361!3d-22.911435095212934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc1409eecfa939%3A0x1e986dd9741cb569!2sS%C3%A3o%20Francisco%20Xavier%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1615312585235!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
+</div>
+</div>
 </body>
 </html>
