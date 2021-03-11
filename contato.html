@@ -1,27 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTATO TESTE</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contato</title>
+   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body background="Assets/img/fundo.png">
 
-    <ul>
-        <li>
-            <a href="Index.html">Home</a>
-        </li>
-        <li>
-            <a href="Contato.html">Contato</a>
-        </li>
-    </ul>
+   <ul id="menu">
+      <li>
+         <a href="index.html"> Home </a>
+      </li>
+      <li>
+         <a href="contato.html"> Contato </a>
+      </li>
+   </ul>
+   <br>
+   <h1 class="center">Entre em contato comigo</h1>
 
-    <h1>Entre em contato comigo</h1>
 
-    <form>
-        <label for=""></label>
-    </form>
+   <div class="container mb-50">
+      <div>
+         <form>
+            <label for="nome">Nome:</label> <br>
+            <input type="text" id="nome" onkeyup='validaNome()'>
+            <div id='txtNome'></div>
+            <br>
+            <label for="email">E-mail:</label> <br>
+            <input type="email" id="email" onkeyup='validaEmail()'>
+            <div id='txtEmail'></div>
+            <br>
+            <label for="assunto">Assunto:</label> <br>
+            <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+            <div id='txtAssunto'></div>
+            <br>
+            <br>
+            <button onclick="enviar()" >Enviar</button>
+         </form>
+      </div>
 
+      <div class="ml-50">
+
+         <p>São Francisco Xavier - SP</p>
+        
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14700.209918229402!2d-45.97054522830361!3d-22.911435095212934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc1409eecfa939%3A0x1e986dd9741cb569!2sS%C3%A3o%20Francisco%20Xavier%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1615497681912!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id='mapa' ></iframe>
+        
+      </div>
+   </div>
+
+
+   <hr>
+   <footer>
+
+    <div class="container">
+        <a href="https://www.facebook.com/francinemassaro" target="_blank">
+           <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+        </a>
+        
+        <a href="https://www.linkedin.com/in/francine-massaro-73813119b/" target="_blank">
+           <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+        </a>
+        
+        <a href="https://www.instagram.com/francine0/" target="_blank">
+           <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Intagram">
+        </a>  
+     </div>
+
+      <p class="center">
+         Todos os direitos reservados: Francine Massaro &copy
+      </p> 
+   </footer>
+
+   <script src="Assets/js/script.js"></script>
+   
 </body>
 </html>
