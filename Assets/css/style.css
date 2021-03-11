@@ -1,20 +1,11 @@
-<<<<<<< HEAD
-=======
-/* Estilo em comum em todas as páginas */
-
-
->>>>>>> js
 /*Estilos da página index.html*/
 .center {
     text-align: center;
  }
  
  .justify{
-<<<<<<< HEAD
-    text-align: justify;
-=======
+
     text-align: center;
->>>>>>> js
  }
  
  .container {
@@ -22,31 +13,19 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-=======
     color: rgb(52, 52, 66);
     font-family: 'Fira Sans', sans-serif;
->>>>>>> js
  }  
  
  #menu li {
     display: inline;
-<<<<<<< HEAD
-    padding: 15px;
-    
-=======
     padding: 25px;
->>>>>>> js
  }
  
  #menu li a {
     text-decoration: none;
-<<<<<<< HEAD
-    color: #546de5;
-=======
     color: #d8821f;
->>>>>>> js
-    font-size: 20px;
+        font-size: 20px;
  }
  
  #menu li a:hover {
@@ -62,12 +41,9 @@
  }
  
  .wh-300{
-<<<<<<< HEAD
-    height: 300px;
-=======
+
     height: 250px;
     padding: 100px;
->>>>>>> js
  
  }
  
@@ -78,6 +54,10 @@
  
  .mb-50{
     margin-bottom: 50px;
+ }
+
+ .tamanho{
+     font-size: 12px;
  }
  
  
