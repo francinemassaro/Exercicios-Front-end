@@ -25,6 +25,7 @@ let mapa = document.querySelector('#mapa')
 
 nome.style.width='100%'
 email.style.width='100%'
+assunto.style.width='100%'
 
 /* VALIDA NOME, SE O NOME FOR MENOR QUE 3, ALERTA) */
 function validaNome(){
@@ -59,10 +60,11 @@ function validaAssunto(){
 
     if(assunto.value.length >= 100) {
         txtAssunto.innerHTML= 'Texto é muito grande, digite no máximo 100 caracteres'
-        textAssunto.style.color = 'red'
-        textAssunto.style.display = 'block'
+        txtAssunto.style.color='red'
+        //textAssunto.style.display = 'block'
     } else {
-        txtAssunto.style.display = 'none'
+        textEmail.innerHTML = ''
+        //txtAssunto.style.display = 'none'
         assuntoOk=true
     }
 }
